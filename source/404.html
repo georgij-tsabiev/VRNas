@@ -45,7 +45,36 @@
       </nav>
     </header>
     <main class="page__main">
-
+      <section class="page__error error">
+        <div class="error__wrapper">
+          <h1 class="page__title">Page Not Found</h1>
+          <h2 class="error__title">404 Error</h2>
+          <p class="error__desc">Oops! It looks like the page you were looking for is not here. Here are some possible reasons why:</p>
+          <ul class="error__list">
+            <li class="error__item">The page may have been moved or deleted.</li>
+            <li class="error__item">You may have mistyped the URL.</li>
+            <li class="error__item">There may be a temporary problem with our server.</li>
+          </ul>
+          <p class="error__desc">You can try the following options to find what you're looking for:</p>
+          <ul class="error__list">
+            <li class="error__item">Check the URL for typos or errors and try again.</li>
+            <li class="error__item">Go back to our homepage and browse from there.</li>
+          </ul>
+          <p class="error__desc">If you believe there's an issue with our website, please contact us using the information provided on our contact page.</p>
+          <a class="error__home-link" href="index.html">Back home</a>
+        </div>
+        <div class="error__image-wrapper">
+          <img class="error__image" src="#" width="652" height="503" alt="A man in a virtual reality helmet.">
+        </div>
+      </section>
+      <section class="page__newsletter newsletter">
+        <h2 class="newsletter__title">Subscribe to our newsletter for latest updates</h2>
+        <form class="newsletter__form" action="#">
+          <label class="newsletter__label" for="email"></label>
+          <input class="newsletter__field" type="email" name="email" id="email" placeholder="Enter your email address">
+          <button class="newsletter__submit" type="submit" aria-label="Send form."></button>
+        </form>
+      </section>
     </main>
     <footer class="footer">
       <a class="page__logo-link" href="index.html">
