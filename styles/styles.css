@@ -1,1 +1,1 @@
-@charset "UTF-8";.header{background-color:#639;color:#fff;padding:10px 15px}
+@charset "UTF-8";*,::after,::before{box-sizing:border-box}html{height:100%}img{max-width:100%;height:auto;object-fit:contain}a{text-decoration:none}.visually-hidden{position:absolute;width:1px;height:1px;margin:-1px;padding:0;border:0;clip:rect(0 0 0 0);overflow:hidden}.reset-list{padding:0;list-style-type:none}.page{min-height:100%;margin:0;font-family:"Chakra Petch","Arial",sans-serif;font-weight:300;background-color:#18181b}.header{color:#fff;padding:30px 0}
