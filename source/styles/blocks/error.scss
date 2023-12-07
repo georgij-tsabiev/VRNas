@@ -1,0 +1,37 @@
+.error__title {
+  max-width: 110px;
+  background: linear-gradient(90deg, #0cbaf1 0%, #e95ce9 100%);
+  background-clip: text;
+  margin: 0;
+  font-size: 16px;
+  font-weight: 500;
+  letter-spacing: 2.24px;
+  text-transform: uppercase;
+}
+
+.error__list {
+  margin: 0;
+  color: #d1d1d1;
+  font-size: 16px;
+  line-height: 28px;
+}
+
+.error__desc {
+  margin: 0;
+  color: #d1d1d1;
+  font-size: 16px;
+  line-height: 28px;
+}
+
+.error__home-link {
+  padding: 18px 38px;
+  max-width: 176px;
+  color: #ffffff;
+  font-family: "Chakra Petch", "Arial", sans-serif;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 14px;
+  letter-spacing: 1.5px;
+  text-transform: uppercase;
+  background: linear-gradient(90deg, #0cbaf1 0%, #e95ce9 100%);
+}
