@@ -1,5 +1,16 @@
+.newsletter {
+  margin: 0 0 100px 0;
+  padding: 0 16px;
+  background: linear-gradient(90deg, #0cbaf1 0%, #e95ce9 100%);
+}
+
+.newsletter__wrapper {
+  padding: 31px 13px;
+}
+
 .newsletter__title {
-  margin: 0;
+  margin: 0 0 8px 0;
+  text-align: center;
   color: #ffffff;
   font-size: 28px;
   font-weight: 600;

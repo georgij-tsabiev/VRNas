@@ -1,8 +1,19 @@
+.error {
+  margin: 0 0 600px 0;
+  padding: 0 16px;
+}
+
+.error__wrapper {
+  display: flex;
+  flex-direction: column;
+}
+
 .error__title {
+  margin: 0 0 12px 0;
   max-width: 110px;
+  order: -1;
   background: linear-gradient(90deg, #0cbaf1 0%, #e95ce9 100%);
   background-clip: text;
-  margin: 0;
   font-size: 16px;
   font-weight: 500;
   letter-spacing: 2.24px;
@@ -24,6 +35,7 @@
 }
 
 .error__home-link {
+  margin: 24px 0 0 0;
   padding: 18px 38px;
   max-width: 176px;
   color: #ffffff;
